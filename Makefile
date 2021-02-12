@@ -22,3 +22,6 @@ push:
 	git commit -m "$(msg)"
 	@git status
 	@git push
+
+gui:
+	python3 tkinter/hello_world.py
